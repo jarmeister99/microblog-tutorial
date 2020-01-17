@@ -16,3 +16,4 @@ class Config(object):
     MAIL_DEFAULT_SENDER = os.environ.get('MAIL_DEFAULT_SENDER') or 'jarmeisterbot@gmail.com'
     ADMINS = ['jarmeisterbot@gmail.com']
     POSTS_PER_PAGE = 15
+    LANGUAGES = ['en', 'es']
